@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
             height: double.infinity,
             child: Image.network(
               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/FranceNormandieLaLandePatryIfs.jpg/1200px-FranceNormandieLaLandePatryIfs.jpg",
-              fit:BoxFit.cover),
+              fit:BoxFit.o),
           ),
         ));
   }
