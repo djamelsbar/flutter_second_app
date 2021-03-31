@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Screen2 extends StatelessWidget {
   void selectScreen(BuildContext ctx){
     Navigator.of(ctx).pushReplacementNamed( 
-      '/x1'
+      '/x1',arguments: {'text': "sdf"}
     );
   }
   @override
